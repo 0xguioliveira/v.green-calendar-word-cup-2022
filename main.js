@@ -24,7 +24,7 @@ function createCard(date,day, games){
 document.querySelector('#cards').innerHTML =
     createCard('20/11', 'domingo', createGame('qatar', '13:00', 'ecuador')) +
     
-    createCard('21/11', 'segunda',createGame('england', '13:00', 'iran') +
+    createCard('21/11', 'segunda',createGame('england', '10:00', 'iran') +
         createGame('senegal', '13:00', 'netherlands') + createGame('eua', '16:00', 'wales')) +
 
     createCard('22/11', 'terça', createGame('argentina', '7:00', 'saudiarabia') + 
